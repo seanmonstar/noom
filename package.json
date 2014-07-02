@@ -1,0 +1,23 @@
+{
+  "name": "noom",
+  "version": "0.0.0",
+  "description": "Enumeration types",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/seanmonstar/noom"
+  },
+  "keywords": [
+    "enum",
+    "enumeration"
+  ],
+  "author": "Sean McArthur <sean.monstar@gmail.com> (http://seanmonstar.com)",
+  "license": "MPLv2.0",
+  "bugs": {
+    "url": "https://github.com/seanmonstar/noom/issues"
+  },
+  "homepage": "https://github.com/seanmonstar/noom"
+}
