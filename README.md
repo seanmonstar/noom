@@ -9,6 +9,7 @@ var Color = noom('RED', 'GREEN', 'BLUE');
 
 var red = Color.RED;
 assert.equal(red, Color.RED);
-assert.notEqual(red, 'RED'); //strings are inevitable typos
+assert.notStrictEqual(red, 'RED'); //careful about type conversion ==
+assert.equal(red + '', 'RED');
 assert(red instanceof Color);
 ```
